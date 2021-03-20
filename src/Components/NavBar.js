@@ -30,32 +30,32 @@ function NavBar() {
         defaultactiveKey="/home"
       >
         <Nav.Item>
-          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/">HOME</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/aboutus">About us</Nav.Link>
+          <Nav.Link href="/aboutus">ABOUT US</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/services"> Services</Nav.Link>
+          <Nav.Link href="/services">SERVICES</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+          <Nav.Link href="/portfolio">PORTFOLIO</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/blog">Blog</Nav.Link>
+          <Nav.Link href="/blog">BLOG</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/contactus">Contact us</Nav.Link>
+          <Nav.Link href="/contactus">CONTACT US</Nav.Link>
         </Nav.Item>
       </Navbar>
       <Nav className="justify-content-end navbar d-sm-flex d-md-none navbarTransparent">
         <NavDropdown>
-          <NavDropdown.Item href="/">Home</NavDropdown.Item>
-          <NavDropdown.Item href="/aboutus">About us</NavDropdown.Item>
-          <NavDropdown.Item href="/services">Services</NavDropdown.Item>
-          <NavDropdown.Item href="/portfolio">Portfolio</NavDropdown.Item>
-          <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
-          <NavDropdown.Item href="/contactus">Contact us</NavDropdown.Item>
+          <NavDropdown.Item href="/">HOME</NavDropdown.Item>
+          <NavDropdown.Item href="/aboutus">ABOUT US</NavDropdown.Item>
+          <NavDropdown.Item href="/services">SERVICES</NavDropdown.Item>
+          <NavDropdown.Item href="/portfolio">PORTFOLIO</NavDropdown.Item>
+          <NavDropdown.Item href="/blog">BLOG</NavDropdown.Item>
+          <NavDropdown.Item href="/contactus">CONTACT US</NavDropdown.Item>
         </NavDropdown>
       </Nav>
       {open ? (
@@ -66,22 +66,22 @@ function NavBar() {
             fixed="top"
           >
             <Nav.Item>
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/">HOME</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/aboutus">About us</Nav.Link>
+              <Nav.Link href="/aboutus">ABOUT US</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/services"> Services</Nav.Link>
+              <Nav.Link href="/services">SERVICES</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="/portfolio">PORTFOLIO</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/blog">Blog</Nav.Link>
+              <Nav.Link href="/blog">BLOG</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/contactus">Contact us</Nav.Link>
+              <Nav.Link href="/contactus">CONTACT US</Nav.Link>
             </Nav.Item>
           </Navbar>
           <Nav
@@ -89,12 +89,12 @@ function NavBar() {
             fixed="top"
           >
             <NavDropdown>
-              <NavDropdown.Item href="/">Home</NavDropdown.Item>
-              <NavDropdown.Item href="/aboutus">About us</NavDropdown.Item>
-              <NavDropdown.Item href="/services">Services</NavDropdown.Item>
-              <NavDropdown.Item href="/portfolio">Portfolio</NavDropdown.Item>
-              <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
-              <NavDropdown.Item href="/contactus">Contact us</NavDropdown.Item>
+              <NavDropdown.Item href="/">HOME</NavDropdown.Item>
+              <NavDropdown.Item href="/aboutus">ABOUT US</NavDropdown.Item>
+              <NavDropdown.Item href="/services">SERVICES</NavDropdown.Item>
+              <NavDropdown.Item href="/portfolio">PORTFLIO</NavDropdown.Item>
+              <NavDropdown.Item href="/blog">BLOG</NavDropdown.Item>
+              <NavDropdown.Item href="/contactus">CONTACT US</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </>
