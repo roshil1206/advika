@@ -1,6 +1,7 @@
 import { Button, Collapse } from "bootstrap";
 import React, { useEffect, useState } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 
 function NavBar() {
   const [open, setOpen] = useState(false);
@@ -83,7 +84,10 @@ function NavBar() {
               <Nav.Link href="/contactus">Contact us</Nav.Link>
             </Nav.Item>
           </Navbar>
-          <Nav className="justify-content-end navbar d-sm-flex d-md-none">
+          <Nav
+            className="justify-content-end navbar nav d-sm-flex d-md-none fixed-top"
+            fixed="top"
+          >
             <NavDropdown>
               <NavDropdown.Item href="/">Home</NavDropdown.Item>
               <NavDropdown.Item href="/aboutus">About us</NavDropdown.Item>
